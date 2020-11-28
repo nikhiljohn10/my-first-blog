@@ -1,8 +1,8 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #C25100;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
     margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .page-header h1,
@@ -23,7 +23,6 @@ h4 {
 
 .date {
     color: #828282;
-    float: right;
 }
 
 .save {
@@ -48,25 +47,24 @@ h4 {
     margin-bottom: 70px;
 }
 
-.post .action {
-    float: right;
-    margin: auto 10px;
-}
-
 .post h2 a,
 .post h2 a:visited {
     color: #000000;
 }
 
-.btn-default {
-    color: rgb(255, 148, 0);
-    background: none;
-    border-color: rgb(255, 148, 0);
+.post > .date,
+.post > .actions {
+    float: right;
 }
 
-.btn-default:hover,
+.btn-default,
 .btn-default:visited {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 148, 0);
-    border-color: rgb(204, 179, 144);
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
 }
